@@ -1,0 +1,52 @@
+{
+  "name": "strapi-provider-translate-ai",
+  "version": "1.0.0",
+  "description": "AI provider for translate plugin in Strapi 4",
+  "keywords": [
+    "strapi",
+    "translate",
+    "provider",
+    "ai"
+  ],
+  "homepage": "https://github.com/givebest/strapi-plugin-translate-ai",
+  "bugs": {
+    "url": "https://github.com/givebest/strapi-plugin-translate-ai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/givebest/strapi-plugin-translate-ai.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "givebest",
+    "email": "givenlovs@msn.com"
+  },
+  "maintainers": [
+    {
+      "name": "givebest",
+      "email": "givenlovs@msn.com"
+    }
+  ],
+  "contributors": [],
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "bottleneck": "^2.19.5"
+  },
+  "devDependencies": {
+    "@strapi/plugin-i18n": "^4.15.0"
+  },
+  "peerDependencies": {
+    "lodash": "*",
+    "strapi-plugin-translate": "1.2.5"
+  },
+  "engines": {
+    "node": ">=14 <=20",
+    "npm": ">=6.0.0"
+  }
+}
